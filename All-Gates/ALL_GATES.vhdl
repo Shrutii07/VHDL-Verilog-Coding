@@ -25,5 +25,11 @@ end ALL_GATES;
 architecture Behavioral of ALL_GATES is
 begin
 c=<a and b;
+c1<= a or b;
+c2<= a nand b;
+c3<= a nor b;
+c4<= a xor b;
+c5<= a xnor b;
+c6<= not b;
 
 end Behavioral
