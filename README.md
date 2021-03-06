@@ -3,4 +3,4 @@
 To do 
 
 * Add PPT Code
-* Coplete DMUX from PPT
+* Complete DMUX from PPT
