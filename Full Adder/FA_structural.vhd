@@ -1,13 +1,11 @@
 library IEEE; 
 use IEEE.STD_LOGIC_1164.ALL;
-
 entity ha is 
 port ( 
 A, B : in STD_LOGIC; 
 s, cr: out STD_LOGIC 
 ); 
 end ha; 
-  
 architecture df of ha is 
 begin 
 s<=A and B; 
@@ -28,14 +26,12 @@ end df;
   
 library IEEE; 
 use IEEE.STD_LOGIC_1164.ALL; 
-
 entity FA_structural is 
 Port ( 
 A,B,C : in STD_LOGIC; 
 sum, carry : out STD_LOGIC 
 ); 
 end FA_structural; 
-  
 architecture structural of FA_structural is 
 component or_gate is 
 port ( 
