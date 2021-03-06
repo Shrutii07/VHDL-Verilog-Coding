@@ -32,4 +32,4 @@ c4<= a xor b;
 c5<= a xnor b;
 c6<= not b;
 
-end Behavioral
+end Behavioral;
