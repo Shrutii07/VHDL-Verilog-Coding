@@ -24,7 +24,7 @@ end ALL_GATES;
 --Defining THE Functionality
 architecture Behavioral of ALL_GATES is
 begin
-c=<a and b;
+c<=a and b;
 c1<= a or b;
 c2<= a nand b;
 c3<= a nor b;
