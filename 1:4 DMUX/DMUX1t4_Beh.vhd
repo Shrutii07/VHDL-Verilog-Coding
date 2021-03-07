@@ -12,8 +12,8 @@ architecture d1 of DMUX1t4_Beh is
 begin
 dmux1: process(s,y)
 begin
-a <="0000"; b<= "0000";
-c <= "0000"; d<="0000";
+a <= "0000"; b <= "0000";
+c <= "0000"; d <= "0000";
 case s is
 	when "00" =>
 		a <= y;
@@ -24,8 +24,8 @@ case s is
 	when "11" =>
 		d <= y;
 	when others =>
-		a <="0000"; b<= "0000";
-		c <= "0000"; d<="0000";
+		a <= "0000"; b <= "0000";
+		c <= "0000"; d <= "0000";
 	end case;
 end process;
 	
