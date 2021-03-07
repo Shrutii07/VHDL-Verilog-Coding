@@ -7,7 +7,7 @@ entity full_sub_tb is
 end entity;
 
 architecture tb of full_sub_tb is
-component F_SUBTRACTOR_BEHAVIORAL is
+component FS_Behave is
 Port ( A : in STD_LOGIC_VECTOR (2 downto 0);
       Y : out STD_LOGIC_VECTOR (1 downto 0));
 end component;
@@ -16,7 +16,7 @@ signal A: STD_LOGIC_VECTOR(2 downto 0);
 signal Y: STD_LOGIC_VECTOR(1 downto 0);
 begin
 
-uut: F_SUBTRACTOR_BEHAVIORAL port map(A => A, Y => Y);
+uut: FS_Behave port map(A => A, Y => Y);
 stim:process
 begin
 
