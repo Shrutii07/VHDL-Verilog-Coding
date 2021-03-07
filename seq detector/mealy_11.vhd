@@ -27,11 +27,11 @@ begin
  case(present_state) is  
  when st0=> 
  if din='0' then 
- next_state<=st0; 
- dout<='0'; 
+  next_state<=st0; 
+  dout<='0'; 
  else 
- next_state<=st1; 
- dout<='0'; 
+  next_state<=st1; 
+  dout<='0'; 
  end if; 
  when st1=> 
  if din='0' then 
