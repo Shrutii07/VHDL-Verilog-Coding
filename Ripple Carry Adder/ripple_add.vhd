@@ -21,6 +21,6 @@ begin
     radd: for i in 0 to 7 generate
       sum(i)<= a(i) xor b(i) xor carry(i);
       carry(i+1) <=(a(i) and b(i)) or ((a(i) or b(i)) and carry(i));
-    end generate;
+    end generate radd;
 
 end arch_add8;
