@@ -11,7 +11,8 @@ entity sync_8b is
     Q: buffer std_logic_vector(7 downto 0) ); 
 end sync_8b;
 
-architecture arch of sync_8b is begin   
+architecture arch of sync_8b is 
+begin   
 process (clk) 
 begin 
     if (CLK'event and CLK='1') then  
