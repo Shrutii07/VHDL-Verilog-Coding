@@ -19,8 +19,11 @@ process (resetn,clock, E)
         Qt <= 12; 
     elsif (clock'event and clock='1') then 
         if E = '1' then 
-        Qt <= Qt + 1; 
-        end if; 
+           if Qt<255 then
+            Qt <= Qt + 1; 
+           else Qt<=0;
+           end if; 
+         end if;
     end if; 
 end process; 
 Q <= Qt; 
