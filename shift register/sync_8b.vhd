@@ -4,14 +4,14 @@ library ieee;
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all; 
 
-entity sipo_syncreset is 
+entity sync_8b is 
     port( 
     clk, clear : in std_logic; 
     Input_Data: in std_logic; 
     Q: buffer std_logic_vector(7 downto 0) ); 
-end sipo_syncreset;
+end sync_8b;
 
-architecture arch of sipo_syncreset is begin   
+architecture arch of sync_8b is begin   
 process (clk) 
 begin 
     if (CLK'event and CLK='1') then  
