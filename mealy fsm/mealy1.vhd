@@ -1,3 +1,7 @@
+-- x input
+-- z1 = 1 if 010 sequence is copleted if and only if 100 didnt occur
+-- z2 = 1 100 occur
+-- note: once z2 = 1 then there wont be any z1 = 1
 library IEEE; 
 use IEEE.STD_LOGIC_1164.ALL; 
 
