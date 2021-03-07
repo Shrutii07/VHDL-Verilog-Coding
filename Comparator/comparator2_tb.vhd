@@ -59,4 +59,4 @@ BEGIN
       wait;
    end process;
 
-END;
+END behavior;
