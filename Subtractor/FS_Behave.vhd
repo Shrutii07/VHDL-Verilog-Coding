@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity FS_Behave is
 Port ( A : in  STD_LOGIC_VECTOR (2 downto 0);
-      Y : out  STD_LOGIC_VECTOR (1 downto 0));
+       Y : out  STD_LOGIC_VECTOR (1 downto 0));
 end FS_Behave;
 
 architecture Behavioral of FS_Behave is
