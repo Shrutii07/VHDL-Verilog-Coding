@@ -43,4 +43,4 @@ begin
     wait;
     end process;
 
-end tb
+end tb;
