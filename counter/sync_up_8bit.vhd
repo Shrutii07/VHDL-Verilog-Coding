@@ -1,4 +1,4 @@
--- 8bit unsigned up counter with synchronous clear 
+-- 8-bit unsigned up counter with synchronous clear 
 
 library ieee; 
 use ieee.std_logic_1164.all; 
