@@ -14,9 +14,9 @@ end async_4b;
 architecture arch of async_4b is
 begin
 
-process (clk, Input_Data)
+process (clk)
   begin
-  if (clk = '1') then
+  if (clk`event and clk = '1') then
     Q(0) <= Input_Data;
     Q(3 downto 1) <= Q(2 downto 0);
   end if;
