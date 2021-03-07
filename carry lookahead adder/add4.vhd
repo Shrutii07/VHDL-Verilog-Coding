@@ -9,7 +9,7 @@ entity add4 is
 	cout: out std_logic);
 end add4;
 
-architecture arch_add4 of add8 is
+architecture arch_add4 of add4 is
 	signal carry: std_logic_vector(4 downto 0);
 	signal g,p: std_logic_vector (3 downto 0);
 	
@@ -29,4 +29,4 @@ architecture arch_add4 of add8 is
 		
 		carry(3)<= g(2) or (p(2) and g(1)) or (p(2) and p(1) and g(0)) or (p(2) and p(1) and p(0) and carry(0));
 		
-end arch_add8;
+end arch_add4;
