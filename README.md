@@ -3,4 +3,3 @@
 To do 
 
 * After midsem
-* Ring Counter
