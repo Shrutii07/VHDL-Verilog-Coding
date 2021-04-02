@@ -2,5 +2,5 @@
 
 To do 
 
-* Add PPT Code
-* Modelsim
+* After midsem
+* Ring Counter
