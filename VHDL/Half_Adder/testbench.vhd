@@ -6,22 +6,23 @@ end tb_ha_struct;
 
 architecture tb of tb_ha_struct is
 
-  component andgate
-  port (a : in std_logic;
-  b : in std_logic;
-  z : out std_logic);
+  component HA_struct
+  port(a, b: in std_logic;
+	s, c: out std_logic);
   end component;
 
 signal a : std_logic;
 signal b : std_logic;
-signal z : std_logic;
+signal s : std_logic;
+signal c : std_logic;
 
 begin
 
-    dut : andgate
+    dut : HA_struct
     port map (a => a,
     b => b,
-    z => z);
+    s=> s,
+    c => c);
 
     stimuli : process
     begin
