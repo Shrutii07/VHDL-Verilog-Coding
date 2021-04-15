@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity tb_ha is
-end tb_ha_struct;
+end tb_ha;
 
 architecture tb of tb_ha is
 
