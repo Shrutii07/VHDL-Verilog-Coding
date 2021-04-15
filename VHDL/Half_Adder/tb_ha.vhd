@@ -1,10 +1,10 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_ha_struct is
+entity tb_ha is
 end tb_ha_struct;
 
-architecture tb of tb_ha_struct is
+architecture tb of tb_ha is
 
   component HA_struct
   port(a, b: in std_logic;
