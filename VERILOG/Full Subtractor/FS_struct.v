@@ -1,4 +1,4 @@
-module fullsubtdf(diff,borrow,a,b,c); 
+module fullsubtstruct(diff,borrow,a,b,c); 
 
 output diff,borrow; 
 
