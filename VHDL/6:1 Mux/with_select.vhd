@@ -5,7 +5,7 @@ entity mux_6_to_1 is
 	port (I: in std_logic_vector(5 downto 0);
 	S: in std_logic_vector(2 downto 0);
 	O: out std_logic);
-end Mux_6_to_1;
+end mux_6_to_1;
 
 architecture data_flow of mux_6_to_1 is
 begin
