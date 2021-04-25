@@ -1,4 +1,4 @@
-module decoder38str(z0,z1,z2,z3,z4,z5,z el,out1);
+module decoder38str(z0,z1,z2,z3,z4,z5,z6,z7,a0,a1,a2);
 
 output z0,z1,z2,z3,z4,z5,z6,z7;
 input a0,a1,a2;
