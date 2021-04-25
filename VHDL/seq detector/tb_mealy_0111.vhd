@@ -38,13 +38,13 @@ dout => dout
 );
 
  --Clock process definitions
-clk_process :process
+clk_process: process
 begin
 clk <= '1';
 wait for clk_period/2;
 clk <= '0';
 wait for clk_period/2;
-end process;
+end clk_process;
 
  --Stimulus process
 stim_proc: process
