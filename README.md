@@ -1,5 +1,3 @@
 # VHDL-Coding
 
-To do 
-
-* After midsem
+[Verilog programs](http://techmasterplus.com/programs/verilog.php)
