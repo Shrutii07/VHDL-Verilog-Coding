@@ -3,7 +3,7 @@
 module fs_tb;
  reg a, b, bin;
  wire d, bout; 
- full_subtractor (.a(a), .b(b), .c(bin), .diff(d), .borrow(bout));
+ full_subtractor fs_tb(.a(a), .b(b), .c(bin), .diff(d), .borrow(bout));
  initial
  begin
    $dumpfile("xyz.vcd");
