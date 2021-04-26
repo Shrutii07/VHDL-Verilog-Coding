@@ -2,10 +2,8 @@ module comparator(a_in, b_in, L_op,g_op,e_op);
 
 input [3:0] a_in;
 input [3:0] b_in;
-output L_op;
-output g_op;
-output e_op;
-reg L_op,g_op,e_op;
+output reg L_op, g_op, e_op;
+
 always @ (a_in,b_in) begin
 if (a_in < b_in)
   L_op=1'b1;
