@@ -20,10 +20,8 @@ endmodule
 
 module D12( y0, y1, d,s );
     input d,s;
-    input y0,y1;
-    wire sn;
-    not(sn,s);
-    and(y0,sn,d);
-    and(y1,s,d);
+    output y0,y1;
+    assign y0 = ~s & d;
+    assign y1 = s & d;
 
 endmodule
