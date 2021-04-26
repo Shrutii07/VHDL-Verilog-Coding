@@ -17,12 +17,9 @@ input D0, D1, S;
 assign Y=(S)?D1:D0;
 endmodule
   
-module m41 ( output out,
-              input a, 
-              input b, 
-              input c, 
-              input d, 
-              input s0, 
-              input s1); 
+module m41 (out,a, b, c,  d,  s0, s1); 
+  output out;
+  input a,b,c,d;
+  input s0,s1;
  assign out = s1 ? (s0 ? d : c) : (s0 ? b : a); 
 endmodule
