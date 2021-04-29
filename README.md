@@ -8,3 +8,4 @@ VHDL stands for very-high-speed integrated circuit hardware description language
 
 # Verilog Introduction
 Verilog is a Hardware Description Language developed to simplify the process of implementing Hardware designs on software by describing the functionality of desired hardware using codes. Unlike VHDL, which is quite verbose and has strict datatype checking, Verilog is a more compact and flexibel language. Thus today Verilog is the most popular Hardware Description Language used for hardware circuit implementations on a computer.
+![](Media/FA_dataflow_sim.png)
