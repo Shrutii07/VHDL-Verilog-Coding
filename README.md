@@ -20,4 +20,4 @@ Modelsim- Altera 6.4a Software has been used for Verilog coding. The example sim
 * [Modelsim- Altera 6.4a](https://drive.google.com/uc?id=1bRwvnQrGw0gavGml-SpD0AZFAumdPXTg&export=download)
 
 ## Guide
-![Software Guide](Media/Software_Guide)
+For Simulation steps please visit Software_Guide in Media folder
