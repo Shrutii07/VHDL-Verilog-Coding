@@ -18,3 +18,6 @@ Modelsim- Altera 6.4a Software has been used for Verilog coding. The example sim
 ## Download links
 * [Quartus II 9.0](https://fpgasoftware.intel.com/13.0sp1/?edition=web)
 * [Modelsim- Altera 6.4a](https://drive.google.com/uc?id=1bRwvnQrGw0gavGml-SpD0AZFAumdPXTg&export=download)
+
+## Guide
+* [Software Guide](Media/Software_Guide)
